@@ -1,0 +1,7 @@
+tests/*.png
+**/__pycache__/
+*.out.log
+*.err.log
+.env
+.env.*
+supabase/.temp/

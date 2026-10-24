@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+**/__pycache__/
+*.out.log
+*.err.log
+app/supabase/.temp/
+app/tests/*.png
+app/tests/audit-results*.json

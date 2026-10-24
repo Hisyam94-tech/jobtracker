@@ -1,0 +1,8 @@
+{
+  "name": "jobtracker-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/unit.test.js tests/login.test.js"
+  }
+}

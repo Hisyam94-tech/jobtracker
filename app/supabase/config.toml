@@ -1,0 +1,9 @@
+project_id = "jobtracker"
+
+[functions.jobtracker-login]
+# Sign-in is intentionally anonymous. The handler verifies the password with Auth.
+verify_jwt = false
+
+[functions.jobtracker-add-user]
+# The handler verifies the bearer session with Auth, then checks the private admin mapping.
+verify_jwt = false
